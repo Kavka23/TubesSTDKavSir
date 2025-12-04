@@ -18,4 +18,15 @@ struct elmMahasiswa {
 struct mList {
     addressM first;
 };
+
+void createListMahasiswa_103012400339(mListMhs &L);
+addressM alokasiMahasiswa_103012400339(string nama, string nim, string kelas);
+void insertMahasiswa_103012400339(mListMhs &L, addressM P);
+bool deleteMahasiswa_103012400339(mListMhs &L, string NIM);
+addressM searchMahasiswa_103012400339(mListMhs L, string NIM);
+
+
+
+
+
 #endif // MAHASISWA_H_INCLUDED
