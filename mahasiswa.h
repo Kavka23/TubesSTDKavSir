@@ -1,6 +1,7 @@
 #ifndef MAHASISWA_H_INCLUDED
 #define MAHASISWA_H_INCLUDED
 #include "ukm.h"
+#include "mahasiswa.h"
 
 using namespace std;
 
@@ -28,8 +29,6 @@ addressM alokasiMahasiswa_103012400339(string nama, string nim, string kelas);
 void insertMahasiswa_103012400339(mListMhs &L, addressM P);
 bool deleteMahasiswa_103012400339(mListMhs &L, string NIM);
 addressM searchMahasiswa_103012400339(mListMhs L, string NIM);
-void addParent_1030124000259(mList L, addressM p);
-void deleteParent_103012400259(mList L, string p);
 void showParent_103012400259(mList L);
 void MahasiswaUKMterbanyak_103012400259(mList L);
 
