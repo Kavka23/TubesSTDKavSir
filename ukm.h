@@ -7,13 +7,13 @@ typedef struct elmUKM addressU;
 
 struct elmUKM {
     infotype info;
-    addressM next;
-    addressM prev;
+    addressU next;
+    addressU prev;
 };
 
 struct mList {
-    addressM first;
-    addressM last;
+    addressU first;
+    addressU last;
 };
 
 addressU alokasiUKM_103012400339(string nama);
