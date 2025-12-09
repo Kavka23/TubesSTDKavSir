@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1740933562 source:c:\users\asus\documents\sir code\c++\stdtubes\main.cpp
+	<iostream>
+
+1765170153 source:c:\users\asus\documents\sir code\c++\stdtubes\mahasiswa_103012400339.cpp
+	<iostream>
+	"header.h"
+
+1765174977 c:\users\asus\documents\sir code\c++\stdtubes\header.h
+
+1765170423 source:c:\users\asus\documents\sir code\c++\stdtubes\ukm_103012400259.cpp
+	<iostream>
+	"header.h"
+
