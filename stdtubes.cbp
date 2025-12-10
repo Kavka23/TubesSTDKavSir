@@ -35,6 +35,10 @@
 		<Unit filename="header.h" />
 		<Unit filename="mahasiswa_103012400339.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menuAdmin_103012400339.cpp" />
+		<Unit filename="menuStudyCase_103012400259.cpp" />
+		<Unit filename="studycase_103012400259.cpp" />
+		<Unit filename="studycase_103012400339.cpp" />
 		<Unit filename="ukm_103012400259.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
