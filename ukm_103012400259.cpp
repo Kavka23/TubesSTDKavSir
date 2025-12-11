@@ -96,7 +96,7 @@ addressU findUKM_103012400259(uList L, string ID){
 void viewUKM_103012400259(uList L){
     addressU curr;
     curr = L.first;
-    cout << "DATA UKM" << endl;
+    cout << "========== DATA UKM ==========" << endl;
        while (curr != nullptr){
             cout << "Nama UKM: " << curr->info.nama << endl;
             cout << "ID UKM: " << curr->info.ID << endl;
