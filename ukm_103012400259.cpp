@@ -61,17 +61,24 @@ void deleteFirstUKM_103012400259(uList &L, addressU &p){
         p->next = nullptr;
     };
 };
-void deleteAfterUKM_103012400259(uList &L, addressU prec, addressU &p){
-    if ((L.first == nullptr && L.last == nullptr) || prec == nullptr || prec->next == nullptr){
+void deleteAfterUKM_103012400259(uList &L, addressU prec, addressU &p) {
+    if (L.first == nullptr || prec == nullptr || prec->next == nullptr) {
         p = nullptr;
-    } else {
-        p = prec->next;
+        return;
+    }
+    p = prec->next;
+    if (p == L.last) {
+        L.last = prec;
+        prec->next = nullptr;
+    }else {
         prec->next = p->next;
         p->next->prev = prec;
-        p->next = nullptr;
-        p->prev = nullptr;
-    };
+    }
+
+    p->next = nullptr;
+    p->prev = nullptr;
 };
+
 void deleteLastUKM_103012400259(uList &L, addressU &p){
     if (L.first == nullptr && L.last == nullptr){
         p = nullptr;

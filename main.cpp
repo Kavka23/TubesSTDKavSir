@@ -5,6 +5,7 @@ using namespace std;
 int main() {
     uList L;
     createListUKM_103012400259(L);
+    initData(L);
 
     int option = -1;
 

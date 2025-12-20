@@ -49,13 +49,15 @@ void deleteFirstMHS_103012400339(addressU &o, addressM &p){
     };
 };
 void deleteAfterMHS_103012400339(addressU &o, addressM prec, addressM &p){
-    if (o->firstMhs == nullptr || prec == nullptr || prec->next == nullptr){
+    if (prec == nullptr || prec->next == nullptr){
         p = nullptr;
     } else {
-        p->next = prec->next;
-        prec->next = p;
+        p = prec->next;
+        prec->next = p->next;
+        p->next = nullptr;
     };
 };
+
 void deleteLastMHS_103012400339(addressU &o, addressM &p){
     if (o->firstMhs == nullptr){
         o->firstMhs = p;

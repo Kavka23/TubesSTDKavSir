@@ -79,5 +79,6 @@ int  countUKM_103012400259(uList L);
 int  countUKMByJenis_103012400259(uList L, string jenis);
 addressU findUKMByName_103012400259(uList L, string nama);
 
-
+//dataset
+void initData(uList &L);
 #endif // HEADER_H_INCLUDED

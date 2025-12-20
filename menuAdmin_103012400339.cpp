@@ -226,7 +226,7 @@ void menuAdmin_103012400339(uList &L) {
             u = findUKM_103012400259(L, ID);
 
             if (u) {
-                cout << "Masukkan NIM acuan delete-after: ";
+                cout << "Masukkan NIM acuan: ";
                 cin >> nimPrec;
 
                 precM = findMHS_103012400339(u, nimPrec);
